@@ -2,12 +2,10 @@
 
 using namespace std;
 
-int main() {
+int RobotBalance() {
 	int N, M;
 	cin >> N >> M;
 
 	if (N <= M) cout << "0" << endl;
 	else cout << N - M << endl;
-
-
 }

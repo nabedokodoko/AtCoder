@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="A - Robot Balance.cpp" />
     <ClCompile Include="B - N - 1.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
