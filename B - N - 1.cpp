@@ -1,7 +1,7 @@
 #include<iostream>
 #include <vector>
 using namespace std;
-int main() {
+int atcoder() {
     int N, M;
     cin >> N >> M;
     vector<int> array;
