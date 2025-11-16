@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="A - Robot Balance.cpp" />
     <ClCompile Include="B - N - 1.cpp" />
+    <ClCompile Include="B - Robot Weight.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

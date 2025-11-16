@@ -6,8 +6,7 @@ int main() {
 	int N, M;
 	cin >> N >> M;
 
-	if (N <= M) cout << "0" << endl;
-	else cout << N - M << endl;
+	int result = (N <= M) ? 0 : N - M;
 
-
+	cout << result << endl;
 }

@@ -1,7 +1,7 @@
 #include<iostream>
 #include <vector>
 using namespace std;
-int atcoder() {
+void atcoder() {
     int N, M;
     cin >> N >> M;
     vector<int> array;
@@ -19,7 +19,6 @@ int atcoder() {
         if ((total - array[i]) == M) {
             check = true;
             cout << "Yes" << endl;
-            return 0;
         }
     }
     if (check == false) {
