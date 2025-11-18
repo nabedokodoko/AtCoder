@@ -1,12 +1,35 @@
 #include<iostream>
+#include<string>
+#include<sstream>
+#include<vector>
 
 using namespace std;
 
 int main() {
-	int N, M;
-	cin >> N >> M;
+	int X, N;
+	cin >> X >> N;
 
-	int result = (N <= M) ? 0 : N - M;
+	vector<int> array(N);
+	for (int i = 0; i < N; i++) {
+		cin >> array[i];
+	}
 
-	cout << result << endl;
+	int Q;
+	cin >> Q;
+
+	int result = X;
+	vector<int> answer;
+	for (int i = 0; i < Q; i++) {
+		int num;
+		cin >> num;
+		result += array[num - 1];
+
+		array[num - 1] *= -1;
+		answer.push_back(result);
+	}
+
+	for (int x : answer) {
+		cout << x << endl;
+	}
+
 }
